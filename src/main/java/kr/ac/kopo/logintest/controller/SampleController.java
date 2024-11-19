@@ -13,14 +13,13 @@ public class SampleController {
     public void exAll(){
         log.info("★ exAll()메소드 호출됨");
     }
-
     @GetMapping("/member")
     public void exMember(){
         log.info("★★ exMember()메소드 호출됨");
     }
-
     @GetMapping("/admin")
     public void exAdmin(){
         log.info("★★★ exAdmin()메소드 호출됨");
     }
+
 }
